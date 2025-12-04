@@ -7,11 +7,15 @@
   default: true;
   --color-primary: #403F3F; /* latest red backgroud */
   --color-secondary: #D72050; 
-  --color-base-100: #F3F3F3; /* marquee background gray */
-  --color-base-200: #E7E7E7; /* slightly darker gray bg */
-  --color-text: #9F9F9F; /* slightly darker gray bg */
+  --color-base-200: #F3F3F3; /* marquee background gray */
+  --color-base-300: #E7E7E7; /* slightly darker gray bg */
+  --color-accent: #706F6F; /* slightly darker gray bg */
 }
 
 * {
   font-family: "Poppins", sans-serif;
+}
+
+a.active{
+    @apply bg-base-300
 }
