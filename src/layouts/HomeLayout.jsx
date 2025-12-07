@@ -30,7 +30,7 @@ const HomeLayout = () => {
 
             <main className='mx-auto w-10/12 my-3 grid grid-cols-12'>
                 <section className="left-nav col-span-3">
-                    <aside>
+                    <aside className='sticky top-1'>
                         <LeftAside></LeftAside>
                     </aside>
 
@@ -40,7 +40,7 @@ const HomeLayout = () => {
                 </section>
 
                 <section className="right-nav col-span-3">
-                    <aside>
+                    <aside className='sticky top-1'>
                         <RightAside></RightAside>
                     </aside>
                 </section>
